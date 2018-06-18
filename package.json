@@ -1,0 +1,22 @@
+{
+  "name": "pathfinding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "gulp prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "heap-tree": "file:../heap-tree",
+    "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {
+    "google-closure-compiler": "^20180506.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-util": "^3.0.8"
+  }
+}
